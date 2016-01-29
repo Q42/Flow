@@ -19,6 +19,9 @@
 		E2D1CF681C5933A90083CCFD /* OrganizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1CF671C5933A90083CCFD /* OrganizationsViewController.swift */; };
 		E2D1CF6A1C5933B70083CCFD /* IssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1CF691C5933B70083CCFD /* IssuesViewController.swift */; };
 		E2D1CF6C1C5935690083CCFD /* SequentialFlowDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1CF6B1C5935690083CCFD /* SequentialFlowDomain.swift */; };
+		E2D1CF6F1C59F86A0083CCFD /* SummaryFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1CF6E1C59F86A0083CCFD /* SummaryFlow.swift */; };
+		E2D1CF711C59F8E70083CCFD /* SummaryFlowDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1CF701C59F8E70083CCFD /* SummaryFlowDomain.swift */; };
+		E2D1CF731C59F9C90083CCFD /* SummaryFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D1CF721C59F9C90083CCFD /* SummaryFlow.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		E2D1CF671C5933A90083CCFD /* OrganizationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationsViewController.swift; sourceTree = "<group>"; };
 		E2D1CF691C5933B70083CCFD /* IssuesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuesViewController.swift; sourceTree = "<group>"; };
 		E2D1CF6B1C5935690083CCFD /* SequentialFlowDomain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequentialFlowDomain.swift; sourceTree = "<group>"; };
+		E2D1CF6E1C59F86A0083CCFD /* SummaryFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryFlow.swift; sourceTree = "<group>"; };
+		E2D1CF701C59F8E70083CCFD /* SummaryFlowDomain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryFlowDomain.swift; sourceTree = "<group>"; };
+		E2D1CF721C59F9C90083CCFD /* SummaryFlow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SummaryFlow.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		E2B93F561C590D8900EAC476 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				E2D1CF6D1C59F8490083CCFD /* SummaryFlow */,
 				E2D1CF641C59337F0083CCFD /* SequentialFlow */,
 				E2B93F571C590D8900EAC476 /* AppDelegate.swift */,
 				E2B93F591C590D8900EAC476 /* ViewController.swift */,
@@ -126,6 +133,16 @@
 				E2D1CF6B1C5935690083CCFD /* SequentialFlowDomain.swift */,
 			);
 			name = SequentialFlow;
+			sourceTree = "<group>";
+		};
+		E2D1CF6D1C59F8490083CCFD /* SummaryFlow */ = {
+			isa = PBXGroup;
+			children = (
+				E2D1CF6E1C59F86A0083CCFD /* SummaryFlow.swift */,
+				E2D1CF701C59F8E70083CCFD /* SummaryFlowDomain.swift */,
+				E2D1CF721C59F9C90083CCFD /* SummaryFlow.storyboard */,
+			);
+			name = SummaryFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D1CF731C59F9C90083CCFD /* SummaryFlow.storyboard in Resources */,
 				E2B93F621C590D8A00EAC476 /* LaunchScreen.storyboard in Resources */,
 				E2B93F5F1C590D8A00EAC476 /* Assets.xcassets in Resources */,
 				E2B93F5D1C590D8A00EAC476 /* Main.storyboard in Resources */,
@@ -260,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D1CF711C59F8E70083CCFD /* SummaryFlowDomain.swift in Sources */,
 				E2D1CF6C1C5935690083CCFD /* SequentialFlowDomain.swift in Sources */,
 				E2B93F861C590D9C00EAC476 /* Flow.swift in Sources */,
+				E2D1CF6F1C59F86A0083CCFD /* SummaryFlow.swift in Sources */,
 				E2D1CF661C59339A0083CCFD /* RepositoriesViewController.swift in Sources */,
 				E2B93F5A1C590D8900EAC476 /* ViewController.swift in Sources */,
 				E2B93F8A1C590EC400EAC476 /* SequentialFlow.swift in Sources */,
